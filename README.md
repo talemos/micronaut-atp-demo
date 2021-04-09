@@ -145,15 +145,14 @@ Congratulations, you can now deploy the APP to OCI instance
 
 ## OPTIONAL - Build the native image
 After the build and run success we can install the GraalVM package to build the native image for deployment
-
 To get the GraalVM on your SO, go to the link and proceed with the install steps
 - [Download](https://github.com/graalvm/graalvm-ce-builds/releases)
 - [Install Steps](https://www.graalvm.org/docs/getting-started/#install-graalvm)
 
-[**Explanation to install native-image with gu update tool:**]
+**Explanation to install native-image with gu update tool:**
 - [Install Native Image gu tool](https://docs.oracle.com/en/graalvm/enterprise/19/guide/reference/native-image/native-image.html)
 
-[**Links to Oracle DOCs GraalVM 21:**]
+**Links to Oracle DOCs GraalVM 21:**
 - [GraalVM Enterprise](https://docs.oracle.com/en/graalvm/enterprise/21/docs/getting-started/#install-graalvm-enterprise)
 - [Getting Started](https://docs.oracle.com/en/graalvm/enterprise/21/docs/getting-started/)
 
