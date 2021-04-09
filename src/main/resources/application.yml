@@ -1,0 +1,22 @@
+micronaut:
+  application:
+    name: example-atp
+  executors:
+    io:
+      type: fixed
+      nThreads: 75
+datasources:
+  default:
+    url: jdbc:oracle:thin:@talemosatpdb_low?tns_admin=tmp/wallet
+    driverClassName: oracle.jdbc.OracleDriver
+    username: MNOCIDEMO
+    password: QWE123@12zxcd$
+    dialect: ORACLE
+    data-source-properties:
+      oracle:
+        jdbc:
+          fanEnabled: false
+flyway:
+  datasources:
+    default:
+      enabled: true
