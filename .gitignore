@@ -8,6 +8,7 @@ out/
 *.iml
 *.ipr
 *.iws
+Wallet_talemosATPDB_micronaut.zip
 .project
 .settings
 .classpath
